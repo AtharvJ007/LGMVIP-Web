@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+            <div class="input-form">
+                <h1>STUDENT REGISTRATION FORM 📝</h1>          
+                <div class="form">
+                    <form action="#" id="form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input class="i" type="text" id="name" required autofocus >
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input class="i" type="email" id="email"  required>
+                        </div>
+                        <div class="form-group">
+                            <label for="website">Website</label>
+                            <input class="i" type="url" id="website" required >
+                        </div>
+                        <div class="form-group">
+                            <label>Img Url</label>
+                            <input class="i" type="url" id="imgurl" required />
+                        </div>
+                        <div class="form-i">                    
+                        <label for="myGen">Gender</label><br>
+                            <label class="opt" for="male" id="m">Male</label>
+                                <input class="optinp" type="radio" id="male" name="myGen" value="Male" checked>
+                            <label class="opt" for="female">Female</label>
+                                <input class="optinp" type="radio" id="female" name="myGen" value="Female">
+                            <label class="opt" for="others">Others</label>
+                                <input class="optinp" type="radio" id="others" name="myGen" value="Others">
+                        </div>
+                        <br>
+                        <div>
+                            <label>Skills</label><br>
+                            <label class="opt" for="html" id="h">HTML</label>
+                                <input class="optinp" type="checkbox" id="html" name="hskills"  value="HTML" >
+                            <label class="opt" for="css">CSS</label>
+                                <input class="optinp" type="checkbox" id="css" name="cskills"  value="CSS" >
+                            <label class="opt" for="js">Java Script</label>
+                                <input class="optinp" type="checkbox" id="js" name="jskills" value="JavaScript" >
+                        </div>
+                        <br>
+                        <div class="buttons">
+                            <button type="button" id="add-btn">Enroll Student</button>
+                            <button type="reset" id="reset">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br />
+            <!-- <hr /> -->
+            <div class="record">
+
+            </div>
+        <div class="line"></div>
+            <div class="table">
+                <br>
+                <h1>Enrolled Students 🧑‍🎓</h1>
+                <div class="scroll">
+                    <table id="display">
+                        <tr>
+                            <th>Description</th>
+                            <th>Profile</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
