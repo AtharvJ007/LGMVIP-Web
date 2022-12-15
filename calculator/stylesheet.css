@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{
+background-image: url("/bg-img.jpg");
+}
+
+h1{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: cursive;
+    font-size: 3rem;
+}
+
+.calculator {
+    padding: 0.625rem;
+    border-radius: 1em;
+    height: 26.25rem;
+    width: 28.125rem;
+    margin: auto;
+    background-color: #191b28;
+    box-shadow: rgba(0, 0, 0, 0.19) 0rem 0.625rem 1.25rem;
+}
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid yellowgreen 0.031rem;
+    color: black;
+    border-radius: 0.313rem;
+    width: 100%;
+    height: 65%;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    background-color: blueviolet;
+    color: white ;
+    border: solid black 0.031px;
+    width: 7rem;
+    border-radius: 0.313rem;
+    height: 75%;
+    outline: none;
+    cursor: pointer;
+}
+
+.op{
+    width:5rem !important;
+}
+
+input[type=button]:hover{
+    background: linear-gradient(rgba(154, 67, 236, 0.75), rgb(166, 97, 232));
+    color: rgba(255, 255, 255, 0.872);
+  }
+
+#bk-btn{
+    margin-left: 0.5rem;
+}
+
+#clear-btn,#bk-btn{
+    height: 71%;
+    width: 2.2rem;
+}
+
+#eq-btn, #clear-btn,#bk-btn {
+    background-color: peru;
+}
+
+#eq-btn:hover,#clear-btn:hover,#bk-btn:hover{
+    background: linear-gradient(rgb(253, 165, 1,0.75), rgb(253, 188, 67));
+    color: rgba(255, 255, 255, 0.872);
+}
+
+@media only screen and (max-width:700px) {
+    .calculator{
+        width:90%;
+        height: 26rem;
+        margin: auto;
+    }
+    .display-box,input[type=button],.op{
+         width:90%;
+    }
+    #bk-btn{
+        margin-left: -5% !important;
+    }
+}
