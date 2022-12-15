@@ -13,7 +13,7 @@ LetsGrowMore Virtual Internship Program (Web Developer 👨‍💻) (LGMVIP-Web)
 ## Welcome Letter
 
 <p align="center">
-        <a href="#"><img src="https://i.postimg.cc/kMLSsRL2/UMAIR-SHABBIR-Welcome-Letter.jpg" /></a>
+        <a href="#"><img src="https://drive.google.com/file/d/1kXB4ssW21y8-04zH7siFGIESo3xuHw61/view" /></a>
 </p>
 
 ---
@@ -21,7 +21,7 @@ LetsGrowMore Virtual Internship Program (Web Developer 👨‍💻) (LGMVIP-Web)
 ## Certificate of Completion
 
 <p align="center">
-        <a href="#"><img src="https://i.postimg.cc/tJLCY0Tb/LGMVIP-Web-Certificate-of-Completion.jpg" /></a>
+<!--         <a href="#"><img src="https://i.postimg.cc/tJLCY0Tb/LGMVIP-Web-Certificate-of-Completion.jpg" /></a> -->
 </p>
 
 ---
